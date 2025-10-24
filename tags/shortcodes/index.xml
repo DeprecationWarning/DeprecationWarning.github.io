@@ -1,0 +1,95 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>shortcodes on deprecationwarning blog</title>
+		<link>https://deprecationwarning.github.io/tags/shortcodes/</link>
+		<description>Recent content in shortcodes </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>en-us</language>
+		
+		<managingEditor>Page(/tags/shortcodes) (deprecationwarning)</managingEditor>
+    	
+  		<lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
+		
+		<atom:link href="/tags/shortcodes/" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Mysql Export Binlog</title>
+			<link>https://deprecationwarning.github.io/2025/10/24/mysql-export-binlog/</link>
+			<pubDate>Fri, 24 Oct 2025 12:07:25 +0800</pubDate>
+			<guid>https://deprecationwarning.github.io/2025/10/24/mysql-export-binlog/</guid>
+			<description>Mysql export binlog file # Fist execute this command in mysql command line to check binlog file name show master status; # Then execute this command in terminal to export binlog file to local, where -vv means export without encryption, i.e. export as plaintext mysqlbinlog --read-from-remote-server --host=&amp;#39;xxx.xxx.xx.xx&amp;#39; --port=3306 --user=&amp;#39;xxx&amp;#39; --password binlog_file_name -vv &amp;gt; ./xxx.sql # If mysql database is in local, use this, this will export the binlog from start_pos to end_pos in your binlog file mysqlbinlog path_to_binlog_file --start-position=start_pos --stop-position=end_pos -vv &amp;gt; .</description>
+		</item>
+      	
+		<item>
+			<title>N-dimensional hyperspherical coordinate system</title>
+			<link>https://deprecationwarning.github.io/2024/08/27/n-dimensional-hyperspherical-coordinate-system/</link>
+			<pubDate>Tue, 27 Aug 2024 19:07:48 +0800</pubDate>
+			<guid>https://deprecationwarning.github.io/2024/08/27/n-dimensional-hyperspherical-coordinate-system/</guid>
+			<description>一、N-dimensional hyperspherical coordinate system We know that the conversion relationship between 2-dimensional polar coordinate system $(r,\theta)$ and cartesian coordinate system $(x_1,x_2)$ is：
+$$ x_1 = r\cos(\theta), x_2 = r\sin(\theta) $$
+By analogy, we can define the hyperspherical coordinate system in n-dimensional space $(r,\theta_1,&amp;hellip;,\theta_{n-1})$, where $\theta_1,\theta_2,\cdots,\theta_{n-2}\in [0, \pi], \theta_{n-1}\in [0, 2\pi)$, $r$ is the radial coordinate， $\theta_1,&amp;hellip;,\theta_n$ are the angle coordinates. The conversion relationship between them and the Cartesian coordinate system $(x_1,x_2,&amp;hellip;,x_n)$ is as follows：</description>
+		</item>
+      	
+		<item>
+			<title>Python commonly used regular expressions</title>
+			<link>https://deprecationwarning.github.io/2023/11/21/commonly-used-regular-expressions/</link>
+			<pubDate>Tue, 21 Nov 2023 00:38:45 +0800</pubDate>
+			<guid>https://deprecationwarning.github.io/2023/11/21/commonly-used-regular-expressions/</guid>
+			<description>1、Match all numbers (including scientific notation) [-+]?\d+(\.\d+)?([eE][-+]?\d+)? 2、Matches all numbers (excluding scientific notation) [-+]?\d+(\.\d+)? </description>
+		</item>
+      	
+		<item>
+			<title>Add Gitalk for Comments in Hugo</title>
+			<link>https://deprecationwarning.github.io/2022/01/13/add-gitalk-for-comments-in-hugo/</link>
+			<pubDate>Thu, 13 Jan 2022 15:28:01 +0800</pubDate>
+			<guid>https://deprecationwarning.github.io/2022/01/13/add-gitalk-for-comments-in-hugo/</guid>
+			<description>Gitalk is a comment plug-in developed based on Github Issue and Preact. It cleverly uses the function of github issue to develop a plug-in, which requires users to have a github account.
+First, you need to choose a public github repository (existing or create a new one) for storing comments
+Then you need to create GitHub the Application , if not click here to apply , Authorization callback URLfill out the domain name currently used plug-in page.</description>
+		</item>
+      	
+		<item>
+			<title>Markdown Syntax Guide</title>
+			<link>https://deprecationwarning.github.io/2019/03/11/markdown-syntax/</link>
+			<pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+			<guid>https://deprecationwarning.github.io/2019/03/11/markdown-syntax/</guid>
+			<description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+		</item>
+      	
+		<item>
+			<title>Rich Content</title>
+			<link>https://deprecationwarning.github.io/2019/03/10/rich-content/</link>
+			<pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+			<guid>https://deprecationwarning.github.io/2019/03/10/rich-content/</guid>
+			<description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+		</item>
+      	
+		<item>
+			<title>Simple Shortcode to Insert Raw HTML in Hugo</title>
+			<link>https://deprecationwarning.github.io/2019/03/09/simple-shortcode-to-insert-raw-html/</link>
+			<pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+			<guid>https://deprecationwarning.github.io/2019/03/09/simple-shortcode-to-insert-raw-html/</guid>
+			<description>I love the simplicity of creating new content using markdown in Hugo. But sometimes, markdown is not enough – you might want to do a one-off extra-fancy thing with raw html.
+Surprisingly, Hugo doesn’t seem to have a good way to let you do this in a content file. Here is how to create your own one-line custom shortcode to make that possible.
+Add a shortcode template to your site, in layouts/shortcodes/rawhtml.</description>
+		</item>
+      	
+		<item>
+			<title>Math Typesetting</title>
+			<link>https://deprecationwarning.github.io/2019/03/08/math-typesetting/</link>
+			<pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+			<guid>https://deprecationwarning.github.io/2019/03/08/math-typesetting/</guid>
+			<description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+		</item>
+      	
+		<item>
+			<title>Emoji Support</title>
+			<link>https://deprecationwarning.github.io/2019/03/05/emoji-support/</link>
+			<pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+			<guid>https://deprecationwarning.github.io/2019/03/05/emoji-support/</guid>
+			<description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+		</item>
+      	
+	</channel>
+</rss>
